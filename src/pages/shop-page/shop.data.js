@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  hats: {
     id: 1,
     title: 'Hats',
     routeName: 'hats',
@@ -60,7 +60,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  shoes: {
     id: 2,
     title: 'Shoes',
     routeName: 'shoes',
@@ -115,7 +115,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  jackets: {
     id: 3,
     title: 'Jackets',
     routeName: 'jackets',
@@ -152,7 +152,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  women: {
     id: 4,
     title: 'Women',
     routeName: 'women',
@@ -201,7 +201,7 @@ const SHOP_DATA = [
       },
     ],
   },
-  {
+  men: {
     id: 5,
     title: 'Men',
     routeName: 'men',
@@ -210,7 +210,7 @@ const SHOP_DATA = [
         id: 30,
         name: 'Camo Down Vest',
         imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325,
+        price: 35,
       },
       {
         id: 31,
@@ -244,6 +244,6 @@ const SHOP_DATA = [
       },
     ],
   },
-];
+};
 
 export default SHOP_DATA;
