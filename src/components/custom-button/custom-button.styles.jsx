@@ -15,12 +15,12 @@ const buttonStyles = css`
 const invertedButtonStyles = css`
   background-color: Black;
   color: white;
-  border: 1px solid rgb(14, 14, 14);
+  border: 1px solid black;
 
   &:hover {
     background-color: rgb(14, 14, 14);
     color: white;
-    border: 1px solid black;
+    border: 1px solid grey;
   }
 `;
 

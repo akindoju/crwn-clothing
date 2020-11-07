@@ -11,7 +11,7 @@ export const CollectionItemContainer = styled.div`
 
   &:hover {
     .image {
-      opacity: 0.8;
+      opacity: 0.9;
     }
 
     button {
@@ -26,7 +26,6 @@ export const AddButton = styled(CustomButton)`
   opacity: 0.7;
   position: absolute;
   top: 255px;
-  display: none;
 `;
 
 export const BackgroundImage = styled.div`
